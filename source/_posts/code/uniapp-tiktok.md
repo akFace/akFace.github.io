@@ -1,9 +1,11 @@
 ---
 title: 基于 uniapp 开发的仿抖音小程序组件（超高性能）
-date: 2025-12-30 13:47:47
 description: MusicFree 免费音乐下载-开源音源接口汇总
 categories: 源码
-cover: https://pic4.zhimg.com/v2-575bc9daad45daf19ff300efdef10a0f_720w.jpg?source=172ae18b
+cover: >-
+  https://pic4.zhimg.com/v2-575bc9daad45daf19ff300efdef10a0f_720w.jpg?source=172ae18b
+abbrlink: 42314
+date: 2025-12-30 13:47:47
 tags:
 ---
 

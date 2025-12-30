@@ -1,10 +1,12 @@
 ---
 title: MusicFree 桌面主题包
-date: 2025-12-30 13:36:36
 tags: 分享
 categories: 资源分享
 keywords: 音乐下载
-cover: https://raw.githubusercontent.com/akFace/MusicFreeTheme/master/preview/detail-pink.jpg
+cover: >-
+  https://raw.githubusercontent.com/akFace/MusicFreeTheme/master/preview/detail-pink.jpg
+abbrlink: 36150
+date: 2025-12-30 13:36:36
 ---
 
 # MusicFree 桌面主题包

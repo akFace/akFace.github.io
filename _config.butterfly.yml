@@ -23,11 +23,27 @@ menu:
     ✨ 分享: /categories/资源分享/
     🎯 教程: /categories/教程/
     🎡 源码: /categories/源码/
+  追番: /anime || fa-fw fa fa-tv
   关于: /about/me || fas fa-heart
 
 # --------------------------------------
 # Code Blocks Settings
 # --------------------------------------
+
+## abbrlink config
+abbrlink:
+  alg: crc32 #support crc16(default) and crc32 进制
+  rep: hex #support dec(default) and hex  算法
+  drafts: false #(true)Process draft,(false)Do not process draft. false(default)
+  ## Generate categories from directory-tree
+  ## depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+    enable: true #true(default)
+    depth: #3(default)
+    over_write: false
+  auto_title: false #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
@@ -615,7 +631,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use:
+  use: Giscus
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -711,10 +727,26 @@ twikoo:
 
 # Giscus
 # https://giscus.app/
+# <script src="https://giscus.app/client.js"
+#         data-repo="akFace/giscus-discussion"
+#         data-repo-id="R_kgDOQxNAcQ"
+#         data-category="Announcements"
+#         data-category-id="DIC_kwDOQxNAcc4C0Zcm"
+#         data-mapping="pathname"
+#         data-strict="0"
+#         data-reactions-enabled="1"
+#         data-emit-metadata="0"
+#         data-input-position="bottom"
+#         data-theme="light_protanopia"
+#         data-lang="zh-CN"
+#         crossorigin="anonymous"
+#         async>
+# </script>
+
 giscus:
-  repo:
-  repo_id:
-  category_id:
+  repo: akFace/giscus-discussion
+  repo_id: R_kgDOQxNAcQ
+  category_id: DIC_kwDOQxNAcc4C0Zcm
   light_theme: light
   dark_theme: dark
   js:
@@ -1157,6 +1189,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <meta name="keywords" content="日常记录日记,资源分享,模拟器教程,ppsspp游戏下载,fc/sfc/ps1/psp/ps2/ps3/psv/wii/3ds模拟器游戏下载,个人博客,Blog">
   bottom:
     # - <script src="xxxx"></script>
 

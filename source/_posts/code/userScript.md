@@ -1,10 +1,12 @@
 ---
 title: 一些自用油猴/暴力猴脚本
-date: 2025-12-30 13:39:55
 tags: 插件
 categories: 源码
 keywords: 油猴
-cover: https://raw.githubusercontent.com/akFace/userScript/master/images/Snipaste_2024-09-16_22-01-12.jpg
+cover: >-
+  https://raw.githubusercontent.com/akFace/userScript/master/images/Snipaste_2024-09-16_22-01-12.jpg
+abbrlink: 54508
+date: 2025-12-30 13:39:55
 ---
 
 # 一些自用油猴/暴力猴脚本

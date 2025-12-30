@@ -24,3 +24,7 @@ git config --global user.name "xxx" //设置用户名 你的Github名称
 
 hexo d
 ```
+
+### 更新追番
+
+`hexo bangumi -u`

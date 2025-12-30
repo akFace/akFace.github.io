@@ -1,9 +1,11 @@
 ---
 title: 不同平台的主机游戏模拟器推荐
-date: 2025-12-29 17:53:29
 tags: 游戏
 categories: 资源分享
-cover: https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25490155/247143_Buying_Guide_Switch_Controllers_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100
+cover: >-
+  https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25490155/247143_Buying_Guide_Switch_Controllers_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100
+abbrlink: 16442
+date: 2025-12-29 17:53:29
 ---
 
 ### 不同平台的主机游戏模拟器推荐

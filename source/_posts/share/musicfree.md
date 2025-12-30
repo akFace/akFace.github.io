@@ -1,12 +1,15 @@
 ---
 title: MusicFree 免费音乐下载-开源音源接口汇总
-date: 2025-12-30 13:02:32
 tags: 分享
 keywords: 音乐下载
 categories: 资源分享
 description: MusicFree 免费音乐下载-开源音源接口汇总
-top_img: https://user-images.githubusercontent.com/31655147/193811666-0a95d0be-16e5-4483-98a3-9ad782ee265d.png
-cover: https://user-images.githubusercontent.com/31655147/193811666-0a95d0be-16e5-4483-98a3-9ad782ee265d.png
+top_img: >-
+  https://user-images.githubusercontent.com/31655147/193811666-0a95d0be-16e5-4483-98a3-9ad782ee265d.png
+cover: >-
+  https://user-images.githubusercontent.com/31655147/193811666-0a95d0be-16e5-4483-98a3-9ad782ee265d.png
+abbrlink: 49606
+date: 2025-12-30 13:02:32
 ---
 
 # MusicFree 免费音乐下载-开源音源接口汇总

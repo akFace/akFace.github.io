@@ -1,10 +1,12 @@
 ---
 title: yuzu模拟器/eden模拟器/switch模拟器教程（新手教程）
-date: 2025-12-30 13:54:48
 tags: 游戏
 keywords: 游戏下载
 categories: 教程
-cover: https://picx.zhimg.com/70/v2-c2c5c0d5bbaa3e63e3229b80330d0b29_1440w.avis?source=172ae18b&biz_tag=Post
+cover: >-
+  https://picx.zhimg.com/70/v2-c2c5c0d5bbaa3e63e3229b80330d0b29_1440w.avis?source=172ae18b&biz_tag=Post
+abbrlink: 43541
+date: 2025-12-30 13:54:48
 ---
 
 本文以 eden 模拟器安装教程举例（eden 模拟器其实是 yuzu 的分支更新，强烈推荐这个，游戏帧率会高一些）和 yuzu 安装方式通用
