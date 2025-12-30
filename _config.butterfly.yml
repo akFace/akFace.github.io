@@ -55,7 +55,8 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+# favicon: /img/favicon.png
+favicon: /img/favicon.ico
 
 avatar:
   img: /img/butterfly-icon.jpg
@@ -825,11 +826,14 @@ ad:
 # --------------------------------------
 
 site_verification:
-  # - name: google-site-verification
-  #   content: xxxxxx
+  - name: msvalidate.01 # bing.com
+    content: 66960A5444E78E869FA802824D725643
+
+  - name: google-site-verification
+    content: Ow9oA2uKI81J9FVrb16T5JwbzExxwyAVdelsAevhdu0
+
   # - name: baidu-site-verification
   #   content: xxxxxxx
-
 # --------------------------------------
 # Beautify / Effect
 # --------------------------------------
@@ -850,7 +854,7 @@ theme_color:
   # 文本选择颜色
   text_selection: "#00c4b6"
   # 链接颜色
-  link_color: "#57BD7C"
+  link_color: "#00AEEC"
   # 元数据颜色
   meta_color: "#858585"
   # 水平线颜色
