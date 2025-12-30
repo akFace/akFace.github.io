@@ -1,0 +1,176 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>yuzu模拟器/eden模拟器/switch模拟器教程（新手教程） | AkFace</title><meta name="author" content="AkFace"><meta name="copyright" content="AkFace"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="本文以 eden 模拟器安装教程举例（eden 模拟器其实是 yuzu 的分支更新，强烈推荐这个，游戏帧率会高一些）和 yuzu 安装方式通用只需简单几步骤：  准备前需要下载好模拟器本体包、固件包、密钥这三个（重要） 这里已经准备好给大家了 ↓↓↓↓ 游戏资源下载：①：https:&#x2F;&#x2F;github.com&#x2F;mirrank&#x2F;doc ②：📢 游戏下载链接 还有游戏资源，根据自己喜欢下载游戏，游戏格">
+<meta property="og:type" content="article">
+<meta property="og:title" content="yuzu模拟器&#x2F;eden模拟器&#x2F;switch模拟器教程（新手教程）">
+<meta property="og:url" content="https://akface.github.io/2025/12/30/doc/switch-pc/index.html">
+<meta property="og:site_name" content="AkFace">
+<meta property="og:description" content="本文以 eden 模拟器安装教程举例（eden 模拟器其实是 yuzu 的分支更新，强烈推荐这个，游戏帧率会高一些）和 yuzu 安装方式通用只需简单几步骤：  准备前需要下载好模拟器本体包、固件包、密钥这三个（重要） 这里已经准备好给大家了 ↓↓↓↓ 游戏资源下载：①：https:&#x2F;&#x2F;github.com&#x2F;mirrank&#x2F;doc ②：📢 游戏下载链接 还有游戏资源，根据自己喜欢下载游戏，游戏格">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://picx.zhimg.com/70/v2-c2c5c0d5bbaa3e63e3229b80330d0b29_1440w.avis?source=172ae18b&biz_tag=Post">
+<meta property="article:published_time" content="2025-12-30T05:54:48.000Z">
+<meta property="article:modified_time" content="2025-12-30T06:04:34.322Z">
+<meta property="article:author" content="AkFace">
+<meta property="article:tag" content="游戏">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://picx.zhimg.com/70/v2-c2c5c0d5bbaa3e63e3229b80330d0b29_1440w.avis?source=172ae18b&biz_tag=Post"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "yuzu模拟器/eden模拟器/switch模拟器教程（新手教程）",
+  "url": "https://akface.github.io/2025/12/30/doc/switch-pc/",
+  "image": "https://picx.zhimg.com/70/v2-c2c5c0d5bbaa3e63e3229b80330d0b29_1440w.avis?source=172ae18b&biz_tag=Post",
+  "datePublished": "2025-12-30T05:54:48.000Z",
+  "dateModified": "2025-12-30T06:04:34.322Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "AkFace",
+      "url": "https://akface.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://akface.github.io/2025/12/30/doc/switch-pc/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.3"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.json","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'yuzu模拟器/eden模拟器/switch模拟器教程（新手教程）',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><span class="site-page group hide"><i class="fa-fw fas fa-compass"></i><span> 资源</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/"><span> ✨ 分享</span></a></li><li><a class="site-page child" href="/categories/%E6%95%99%E7%A8%8B/"><span> 🎯 教程</span></a></li><li><a class="site-page child" href="/categories/%E6%BA%90%E7%A0%81/"><span> 🎡 源码</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/me"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://picx.zhimg.com/70/v2-c2c5c0d5bbaa3e63e3229b80330d0b29_1440w.avis?source=172ae18b&amp;biz_tag=Post);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">AkFace</span></a><a class="nav-page-title" href="/"><span class="site-name">yuzu模拟器/eden模拟器/switch模拟器教程（新手教程）</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><span class="site-page group hide"><i class="fa-fw fas fa-compass"></i><span> 资源</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/"><span> ✨ 分享</span></a></li><li><a class="site-page child" href="/categories/%E6%95%99%E7%A8%8B/"><span> 🎯 教程</span></a></li><li><a class="site-page child" href="/categories/%E6%BA%90%E7%A0%81/"><span> 🎡 源码</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/me"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">yuzu模拟器/eden模拟器/switch模拟器教程（新手教程）</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-12-30T05:54:48.000Z" title="发表于 2025-12-30 13:54:48">2025-12-30</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-12-30T06:04:34.322Z" title="更新于 2025-12-30 14:04:34">2025-12-30</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%99%E7%A8%8B/">教程</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">145</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>本文以 eden 模拟器安装教程举例（eden 模拟器其实是 yuzu 的分支更新，强烈推荐这个，游戏帧率会高一些）和 yuzu 安装方式通用<br>只需简单几步骤：</p>
+<ul>
+<li>准备前需要下载好模拟器本体包、固件包、密钥这三个（重要）</li>
+<li>这里已经准备好给大家了 ↓↓↓↓</li>
+<li>游戏资源下载：①：<a target="_blank" rel="noopener" href="https://github.com/mirrank/doc">https://github.com/mirrank/doc</a> ②：<a target="_blank" rel="noopener" href="https://www.kdocs.cn/l/cb8EZlAVGjo5">📢 游戏下载链接</a></li>
+<li>还有游戏资源，根据自己喜欢下载游戏，游戏格式通常为 xci 和 nsp，如图所示：</li>
+</ul>
+<p>解压</p>
+<p><img src="https://picx.zhimg.com/80/v2-90578b8c38ef4b3c9c85e575f9432321_1440w.jpg?source=ccfced1a" alt="添加图片注释，不超过 140 字（可选）"></p>
+<p>启动一次应用</p>
+<p><img src="https://pic1.zhimg.com/80/v2-711fd82ca7a56f74868d3896c77e55e3_1440w.jpg?source=ccfced1a" alt="添加图片注释，不超过 140 字（可选）"></p>
+<p><img src="https://picx.zhimg.com/80/v2-7f60a3b6ecb7f3c38192a1f1e688ed91_1440w.jpg?source=ccfced1a" alt="添加图片注释，不超过 140 字（可选）"></p>
+<p><img src="https://picx.zhimg.com/80/v2-7bdeda88fc21397d1a3148ca43c2e8a7_1440w.jpg?source=ccfced1a" alt="添加图片注释，不超过 140 字（可选）"><br><img src="https://picx.zhimg.com/80/v2-c63d5581de0c9db4afe72e785563ff79_1440w.jpg?source=ccfced1a" alt="alt text"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-66e49c1f1426aa4fd67e5041da89d3e9_1440w.jpg?source=ccfced1a" alt="添加图片注释，不超过 140 字（可选）"><br><img src="https://picx.zhimg.com/80/v2-074abbbb4ff06b0d8c99b7792413d017_1440w.jpg?source=ccfced1a" alt="alt text"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://akface.github.io">AkFace</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://akface.github.io/2025/12/30/doc/switch-pc/">https://akface.github.io/2025/12/30/doc/switch-pc/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://akface.github.io" target="_blank">AkFace</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%B8%B8%E6%88%8F/">游戏</a></div><div class="post-share"><div class="social-share" data-image="https://picx.zhimg.com/70/v2-c2c5c0d5bbaa3e63e3229b80330d0b29_1440w.avis?source=172ae18b&amp;biz_tag=Post" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2025/12/30/code/uniapp-tiktok/" title="基于 uniapp 开发的仿抖音小程序组件（超高性能）"><img class="cover" src="https://pic4.zhimg.com/v2-575bc9daad45daf19ff300efdef10a0f_720w.jpg?source=172ae18b" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">基于 uniapp 开发的仿抖音小程序组件（超高性能）</div></div><div class="info-2"><div class="info-item-1">基于 uniapp 开发的仿抖音小程序组件（超高性能）GitHub 源码：https://github.com/akFace/uniapp-tiktokuniapp 插件：https://ext.dcloud.net.cn/plugin?id=13025GIF 截图效果         GIF 帧率不够，实际真机效果非常丝滑  注：组件使用 vue3+typescript 开发 全局仅渲染 3 个 swiper-item 实测，不管加载多少数据也能丝滑滚动 适用于 vue3，vue2 请自行修 自动预加载视频 首次渲染优化  快速开始，下载插件后请按照此方法运行调试 安装 nodejs: https://nodejs.org/en/ 安装依赖: npm i 运行项目: npm run dev:mp-weixin 构建项目资源: npm run build:mp-weixin 打开小程序开发工具导入dist/dev/mp-weixin 即可 真机预览，请点小程序开发工具上的预览，扫码真机预览即可  参考 API   属性 类型 默认值 说明    videoList Array -...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2025/12/29/share/emulator/" title="不同平台的主机游戏模拟器推荐"><img class="cover" src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25490155/247143_Buying_Guide_Switch_Controllers_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-12-29</div><div class="info-item-2">不同平台的主机游戏模拟器推荐</div></div><div class="info-2"><div class="info-item-1">不同平台的主机游戏模拟器推荐模拟器对应的名称：  街机模拟器：WinKawaks  psp 模拟器：PPSSPP  FC.GBA.GameBoy.SMS-小霸王：Mesen  PS2 模拟器：pcsx2  PS3 模拟器：rpcs3  PSV 模拟器：Vita3K  NS 模拟器：yuzu 和 cemu  世嘉 MD 模拟器：Gems  全能模拟器管理包：tian.马 G  fc 游戏&#x2F;sfc 游戏&#x2F;ps1 游戏&#x2F;psp 游戏&#x2F;ps2 游戏&#x2F;ps3 游戏&#x2F;psv 游戏&#x2F;wii 游戏&#x2F;3ds 游戏&#x2F;ppsspp 游戏下载   最全模拟器游戏 ROM 下载：https://github.com/mirrank/doc</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">AkFace</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/akFace"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">Blog-网站更新</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/12/30/doc/switch-pc/" title="yuzu模拟器/eden模拟器/switch模拟器教程（新手教程）"><img src="https://picx.zhimg.com/70/v2-c2c5c0d5bbaa3e63e3229b80330d0b29_1440w.avis?source=172ae18b&amp;biz_tag=Post" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="yuzu模拟器/eden模拟器/switch模拟器教程（新手教程）"/></a><div class="content"><a class="title" href="/2025/12/30/doc/switch-pc/" title="yuzu模拟器/eden模拟器/switch模拟器教程（新手教程）">yuzu模拟器/eden模拟器/switch模拟器教程（新手教程）</a><time datetime="2025-12-30T05:54:48.000Z" title="发表于 2025-12-30 13:54:48">2025-12-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/30/code/uniapp-tiktok/" title="基于 uniapp 开发的仿抖音小程序组件（超高性能）"><img src="https://pic4.zhimg.com/v2-575bc9daad45daf19ff300efdef10a0f_720w.jpg?source=172ae18b" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="基于 uniapp 开发的仿抖音小程序组件（超高性能）"/></a><div class="content"><a class="title" href="/2025/12/30/code/uniapp-tiktok/" title="基于 uniapp 开发的仿抖音小程序组件（超高性能）">基于 uniapp 开发的仿抖音小程序组件（超高性能）</a><time datetime="2025-12-30T05:47:47.000Z" title="发表于 2025-12-30 13:47:47">2025-12-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/30/code/userScript/" title="一些自用油猴/暴力猴脚本"><img src="https://raw.githubusercontent.com/akFace/userScript/master/images/Snipaste_2024-09-16_22-01-12.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="一些自用油猴/暴力猴脚本"/></a><div class="content"><a class="title" href="/2025/12/30/code/userScript/" title="一些自用油猴/暴力猴脚本">一些自用油猴/暴力猴脚本</a><time datetime="2025-12-30T05:39:55.000Z" title="发表于 2025-12-30 13:39:55">2025-12-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/30/share/musicfreeTheme/" title="MusicFree 桌面主题包"><img src="https://raw.githubusercontent.com/akFace/MusicFreeTheme/master/preview/detail-pink.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MusicFree 桌面主题包"/></a><div class="content"><a class="title" href="/2025/12/30/share/musicfreeTheme/" title="MusicFree 桌面主题包">MusicFree 桌面主题包</a><time datetime="2025-12-30T05:36:36.000Z" title="发表于 2025-12-30 13:36:36">2025-12-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/30/share/musicfree/" title="MusicFree 免费音乐下载-开源音源接口汇总"><img src="https://user-images.githubusercontent.com/31655147/193811666-0a95d0be-16e5-4483-98a3-9ad782ee265d.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MusicFree 免费音乐下载-开源音源接口汇总"/></a><div class="content"><a class="title" href="/2025/12/30/share/musicfree/" title="MusicFree 免费音乐下载-开源音源接口汇总">MusicFree 免费音乐下载-开源音源接口汇总</a><time datetime="2025-12-30T05:02:32.000Z" title="发表于 2025-12-30 13:02:32">2025-12-30</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By AkFace</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.3</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.3"></script><script src="/js/main.js?v=5.5.3"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="请输入" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.3"></script></div></div></body></html>
