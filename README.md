@@ -1,6 +1,7 @@
 ### Hexo 常用指令
 
 - `hexo new post` 文章名称 # 新建文章
+- `hexo new page --path share/game` 此时 Hexo 会创建 `source/_posts/share/game.md`
 - `hexo new page --path about/me "About me"` 新建带路径和目录的页面（单独页面）
 - `hexo clean` # 清除缓存
 - `hexo generate` # 生成静态页面至 public 目录

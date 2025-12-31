@@ -3,7 +3,7 @@ title: About
 date: 2025-12-30 14:28:50
 ---
 
-### <img width="180" height="25" src="https://glitch-art.vercel.app/api/simple?word=Hi%20I'm%20AkFace&font=Doto" />
+### <img width="220" height="25" src="https://glitch-art.vercel.app/api/simple?word=Hello%20I'm%20AkFace&font=Doto" />
 
 <picture>
   <source
@@ -29,7 +29,7 @@ Follow me:
 
 - 🍵 GitHub【[GitHub](https://github.com/akFace)】
 - 📠 Blog【[Blog](https://akface.github.io/)】
-- 🍭 Bilibli【[Bilibli](https://space.bilibili.com/18791449)】
+- 🍭 Weibo【[Weibo](https://weibo.com/u/3896507087)】
 - 📩 Email (mailto:kang558@foxmail.com)
 
 ##### 仅用于分享记录之用
