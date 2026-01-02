@@ -4296,6 +4296,13 @@ figure.highlight pre .javascript .function {
   margin: 0;
   color: var(--white);
   font-size: 1.85em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  word-break: break-word;
 }
 @media screen and (min-width: 768px) {
   #page-header #site-title {
