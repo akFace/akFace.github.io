@@ -3,6 +3,8 @@
 - `hexo new post` 文章名称 # 新建文章
 - `hexo new page --path share/game` 此时 Hexo 会创建 `source/_posts/share/game.md`
 - `hexo new page --path about/me "About me"` 新建带路径和目录的页面（单独页面）
+- `hexo n draft draft1` 新建草稿，将在 source\目录下创建\_drafts 目录，并生成一个 draft1.md 文件。
+- `hexo publish [layout] <filename>` 当你编辑完草稿后，可以把文章推送到\_posts 目录下，通过下面的命令：
 - `hexo clean` # 清除缓存
 - `hexo generate` # 生成静态页面至 public 目录
 - `hexo server` # 开启预览访问端口（默认端口 4000，’ctrl + c’关闭 server）
