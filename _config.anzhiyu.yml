@@ -24,14 +24,8 @@ nav:
     - title: 网页
       item:
         - name: 博客
-          link: https://hexo.anheyu.com/
+          link: https://akface.github.io/
           icon: /img/favicon.ico
-    - title: 项目
-      item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
-
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
 mourn:
@@ -227,7 +221,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 广州
+  location:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -608,7 +602,7 @@ theme_color:
   paginator: "#425AEF"
   #   button_hover: "#FF7242"
   text_selection: "#2128bd"
-  link_color: "#00AEEC"
+  link_color: "#667AF2"
   meta_color: "var(--anzhiyu-fontcolor)"
   hr_color: "#4259ef23"
   code_foreground: "#fff"

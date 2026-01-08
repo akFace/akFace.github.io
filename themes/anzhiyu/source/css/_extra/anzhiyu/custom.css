@@ -121,7 +121,7 @@ div#category {
   ) {
   font-weight: 500;
   border-bottom: solid 2px var(--anzhiyu-lighttext);
-  color: var(--anzhiyu-fontcolor);
+  /* color: var(--anzhiyu-fontcolor); */
   padding: 0 0.2em;
   text-decoration: none;
   font-family: inherit;

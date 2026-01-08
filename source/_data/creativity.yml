@@ -15,9 +15,6 @@
     - name: Pinia
       color: "#fff"
       icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/pinia-logo.svg
-    - name: Python
-      color: "#fff"
-      icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/02c9c621414cc2ca41035d809a4154be_7912546659792951301.png
     - name: Vite
       color: "#937df7"
       icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg

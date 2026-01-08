@@ -3,7 +3,7 @@ title: 关于B站无法启用HEVC的方法&&yuzu/eden模拟器Vulkan模式闪退
 tags: 教程
 keywords: 显卡问题
 categories: 教程
-cover: "https://picx.zhimg.com/v2-126343c8da3b5e8fd5e483011a756093_1440w.jpg"
+cover: "https://pic2.zhimg.com/100/v2-7d43ddb0d8490be3b09dd8ce81e029f5_r.jpg"
 abbrlink: 54172
 date: 2025-12-31 16:36:18
 ---
