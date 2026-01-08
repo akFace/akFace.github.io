@@ -5,7 +5,7 @@
 # Site
 title: AkFace
 subtitle: "康师傅的博客站点"
-description: "博客Blog, 各种教程, 资源分享"
+description: "博客Blog, 教程, 资源分享"
 keywords: 日常记录日记,资源分享,模拟器教程,ppsspp游戏下载,fc/sfc/ps1/psp/ps2/ps3/psv/wii/3ds模拟器游戏下载,个人博客,Blog
 author: AkFace
 language: zh-CN
@@ -30,6 +30,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - ".github/**/**"
+  - "*.py"
+  - "*.txt"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -91,13 +94,14 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
+  - ".github/**/**"
 exclude:
 ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: anzhiyu #butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,6 +109,7 @@ deploy:
   type: "git"
   repo: https://github.com/akface/akface.github.io.git
   branch: main
+  ignore_hidden: false # 加了这么一个配置
 
 bangumi: # 追番设置
   enable: true # 是否启用

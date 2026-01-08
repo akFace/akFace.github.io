@@ -3,7 +3,7 @@ title: About
 date: 2025-12-30 14:28:50
 ---
 
-### <img alt="akFace" width="220" height="25" src="https://glitch-art.vercel.app/api/simple?word=Hello%20I'm%20AkFace&font=Doto" />
+<img alt="akFace" width="320" height="25" style="object-fit: contain;border-radius: none;" src="https://proxy.pipers.cn/github.com/akFace/picx-images-hosting/raw/master/Tools/simple.8dxcq5kyxs.svg" />
 
 <br>
 <picture>

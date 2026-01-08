@@ -5,8 +5,7 @@ tags: 游戏
 keywords: 全网最全主机/模拟器游戏资源下载 单机游戏下载  fc游戏下载  sfc游戏下载  ps1游戏下载  psp游戏下载  ps2游戏下载  ps3游戏下载  psv游戏下载  wii游戏下载  3ds游戏下载  ppsspp游戏下载  switch游戏下载  N64游戏下载  GBA游戏下载
 categories: 资源分享
 description: 全网最全主机/模拟器游戏资源下载 单机游戏下载  fc游戏下载  sfc游戏下载  ps1游戏下载  psp游戏下载  ps2游戏下载  ps3游戏下载  psv游戏下载  wii游戏下载  3ds游戏下载  ppsspp游戏下载  switch游戏下载  N64游戏下载  GBA游戏下载
-top_img: >-
-  https://pic2.zhimg.com/v2-aeeee934be84d162210f4a1f96e51ccd_r.jpg
+top_img: "https://pic2.zhimg.com/v2-aeeee934be84d162210f4a1f96e51ccd_r.jpg"
 ---
 
 # 软件/游戏/模拟器游戏文件下载分享
@@ -132,13 +131,13 @@ DC 中文游戏全集：[https://pan.quark.cn/s/d2cd84184bb2](https://pan.quark.
 
 ---
 
-### Xbox
+### **Xbox**
 
 Xbox360 中文游戏 256 个&模拟器：[https://pan.quark.cn/s/7d3c8c37c28e](https://pan.quark.cn/s/7d3c8c37c28e)
 
 ---
 
-### 单机游戏
+### **单机游戏**
 
 怀旧单机 PC 游戏：[https://pan.quark.cn/s/717414184b0c](https://pan.quark.cn/s/717414184b0c)
 
@@ -154,7 +153,7 @@ Steam 移植手机游戏版[980 款]：[https://pan.quark.cn/s/8026fbe97496](htt
 
 ---
 
-### 诺基亚塞班时代 java/N-Gage 游戏
+### **诺基亚塞班时代 java/N-Gage 游戏**
 
 5700 个 J2ME 游戏：[https://pan.quark.cn/s/6b32bff0c45d](https://pan.quark.cn/s/6b32bff0c45d)
 
@@ -164,7 +163,7 @@ Steam 移植手机游戏版[980 款]：[https://pan.quark.cn/s/8026fbe97496](htt
 
 ---
 
-### 模拟器整合打包
+### **模拟器整合打包**
 
 Batocera 中文版[15000 款大型游戏超级整合包]：[https://pan.quark.cn/s/b786b8157176](https://pan.quark.cn/s/b786b8157176)
 
@@ -180,19 +179,19 @@ Batocera 中文版[15000 款大型游戏超级整合包]：[https://pan.quark.cn
 
 ---
 
-### 金手指
+### **金手指**
 
 全机种模拟器 CHT 金手指大全：[https://pan.quark.cn/s/3e2cbd58b4b7](https://pan.quark.cn/s/3e2cbd58b4b7)
 
 ---
 
-### 游戏杂志/攻略
+### **游戏杂志/攻略**
 
 各种模拟器游戏杂志专辑攻略合集：[https://pan.quark.cn/s/c9dac64fd6f3](https://pan.quark.cn/s/c9dac64fd6f3)
 
 ---
 
-### 软件下载
+### **软件下载**
 
 包含去广告、谷歌版、定制版等软件
 
