@@ -107,7 +107,7 @@ theme: anzhiyu #butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: "git"
-  repo: https://github.com/akface/akface.github.io.git
+  repo: git@github.com:akFace/akFace.github.io.git
   branch: main
   ignore_hidden: false # 加了这么一个配置
 
